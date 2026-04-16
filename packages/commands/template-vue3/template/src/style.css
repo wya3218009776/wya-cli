@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #f0fdf4 0%, #eff6ff 100%);
+  color: #0f172a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app {
+  min-height: 100vh;
+}

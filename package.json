@@ -1,0 +1,18 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "packages/utils/*",
+    "packages/commands/*",
+    "packages/models/*"
+  ],
+  "scripts": {
+    "test:workspaces": "npm test --workspaces",
+    "publish:ci": "lerna publish from-package --yes --registry https://registry.npmjs.org/ --ignore @wya-cli/commands --ignore @wya-cli/models"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^8.2.4"
+  }
+}

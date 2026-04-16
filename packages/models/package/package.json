@@ -1,0 +1,25 @@
+{
+  "name": "@wya-cli/package",
+  "version": "0.0.0",
+  "description": "CLI 包下载与管理",
+  "author": "王迎奥 <3218009776@qq.com>",
+  "license": "ISC",
+  "main": "lib/package.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node ./__tests__/package.test.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.3.2",
+    "npminstall": "^7.12.0",
+    "path-exists": "^4.0.0"
+  }
+}
