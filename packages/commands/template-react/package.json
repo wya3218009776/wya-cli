@@ -8,7 +8,7 @@
                   "template"
               ],
     "publishConfig":  {
-                          "registry":  "https://registry.npmmirror.com/",
+                          "registry":  "https://registry.npmjs.org/",
                           "access":  "public"
                       },
     "scripts":  {
