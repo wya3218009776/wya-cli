@@ -1,8 +1,8 @@
 {
   "name": "@wya-cli/template-vue3",
   "version": "0.1.0",
-  "description": "wya-cli 本地 Vue3 模板",
-  "author": "王迎奥 <3218009776@qq.com>",
+  "description": "Vue3 project template",
+  "author": "wya3218009776 <3218009776@qq.com>",
   "license": "ISC",
   "files": [
     "template"

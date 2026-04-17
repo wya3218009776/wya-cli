@@ -1,8 +1,8 @@
 {
   "name": "@wya-cli/package",
   "version": "0.1.0",
-  "description": "CLI 包下载与管理",
-  "author": "王迎奥 <3218009776@qq.com>",
+  "description": "CLI package manager",
+  "author": "wya3218009776 <3218009776@qq.com>",
   "license": "ISC",
   "main": "lib/package.js",
   "directories": {

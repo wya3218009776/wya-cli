@@ -1,8 +1,8 @@
 {
   "name": "@wya-cli/init",
   "version": "0.1.0",
-  "description": "项目初始化命令",
-  "author": "王迎奥 <3218009776@qq.com>",
+  "description": "Project initialization command",
+  "author": "wya3218009776 <3218009776@qq.com>",
   "license": "ISC",
   "main": "lib/init.js",
   "directories": {

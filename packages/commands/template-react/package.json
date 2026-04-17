@@ -1,8 +1,8 @@
 {
   "name": "@wya-cli/template-react",
   "version": "0.1.0",
-  "description": "wya-cli 本地 React 模板",
-  "author": "王迎奥 <3218009776@qq.com>",
+  "description": "React project template",
+  "author": "wya3218009776 <3218009776@qq.com>",
   "license": "ISC",
   "files": [
     "template"

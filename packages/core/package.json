@@ -1,8 +1,8 @@
 {
   "name": "@wya-cli/core",
   "version": "0.1.0",
-  "description": "> TODO: description",
-  "author": "王迎奥 <3218009776@qq.com>",
+  "description": "CLI core entry",
+  "author": "wya3218009776 <3218009776@qq.com>",
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
