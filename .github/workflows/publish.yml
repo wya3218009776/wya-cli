@@ -31,6 +31,12 @@ jobs:
       - name: Run workspace tests
         run: npm run test:workspaces
 
+      - name: Ensure clean working tree
+        run: |
+          git status --short
+          git diff -- packages/core/bin/index.js || true
+          git reset --hard HEAD
+
       - name: Verify npm auth
         run: npm whoami
         env:
