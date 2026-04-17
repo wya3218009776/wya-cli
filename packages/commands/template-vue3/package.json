@@ -1,0 +1,16 @@
+{
+  "name": "@wya-cli/template-vue3",
+  "version": "0.1.0",
+  "description": "wya-cli 本地 Vue3 模板",
+  "author": "王迎奥 <3218009776@qq.com>",
+  "license": "ISC",
+  "files": [
+    "template"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node -e \"console.log('no tests for @wya-cli/template-vue3')\""
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@wya-cli/init",
+  "version": "0.1.0",
+  "description": "项目初始化命令",
+  "author": "王迎奥 <3218009776@qq.com>",
+  "license": "ISC",
+  "main": "lib/init.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node -e \"console.log('no tests for @wya-cli/init')\""
+  },
+  "dependencies": {
+    "@wya-cli/command": "^0.1.0",
+    "@wya-cli/log": "^0.1.0",
+    "@wya-cli/package": "^0.1.0",
+    "@wya-cli/template-react": "^0.1.0",
+    "@wya-cli/template-vue3": "^0.1.0",
+    "@wya-cli/utils": "^0.1.0",
+    "ejs": "^3.1.10",
+    "fs-extra": "^11.3.2",
+    "glob": "^11.0.3",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1",
+    "semver": "^7.7.4",
+    "user-home": "^2.0.0"
+  }
+}

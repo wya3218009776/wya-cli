@@ -1,0 +1,23 @@
+{
+  "name": "@wya-cli/command",
+  "version": "0.1.0",
+  "description": "CLI 命令基类",
+  "author": "王迎奥 <3218009776@qq.com>",
+  "license": "ISC",
+  "main": "lib/command.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "test": "node -e \"console.log('no tests for @wya-cli/command')\""
+  },
+  "dependencies": {
+    "@wya-cli/log": "^0.1.0"
+  }
+}
