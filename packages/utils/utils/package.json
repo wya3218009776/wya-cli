@@ -1,22 +1,23 @@
 {
-  "name": "@wya-cli/utils",
-  "version": "0.1.0",
-  "description": "CLI utils",
-  "author": "wya3218009776 <3218009776@qq.com>",
-  "homepage": "",
-  "license": "ISC",
-  "main": "lib/utils.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
-  "scripts": {
-    "test": "node ./__tests__/utils.test.js"
-  }
+    "name":  "@wya-cli/utils",
+    "version":  "0.1.0",
+    "description":  "CLI utils",
+    "author":  "wya3218009776 \u003c3218009776@qq.com\u003e",
+    "homepage":  "",
+    "license":  "ISC",
+    "main":  "lib/utils.js",
+    "directories":  {
+                        "lib":  "lib",
+                        "test":  "__tests__"
+                    },
+    "files":  [
+                  "lib"
+              ],
+    "publishConfig":  {
+                          "registry":  "https://registry.npmmirror.com/",
+                          "access":  "public"
+                      },
+    "scripts":  {
+                    "test":  "node ./__tests__/utils.test.js"
+                }
 }

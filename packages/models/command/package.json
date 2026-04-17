@@ -1,23 +1,24 @@
 {
-  "name": "@wya-cli/command",
-  "version": "0.1.0",
-  "description": "CLI command base class",
-  "author": "wya3218009776 <3218009776@qq.com>",
-  "license": "ISC",
-  "main": "lib/command.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
-  "scripts": {
-    "test": "node -e \"console.log('no tests for @wya-cli/command')\""
-  },
-  "dependencies": {
-    "@wya-cli/log": "^0.1.0"
-  }
+    "name":  "@wya-cli/command",
+    "version":  "0.1.0",
+    "description":  "CLI command base class",
+    "author":  "wya3218009776 \u003c3218009776@qq.com\u003e",
+    "license":  "ISC",
+    "main":  "lib/command.js",
+    "directories":  {
+                        "lib":  "lib"
+                    },
+    "files":  [
+                  "lib"
+              ],
+    "publishConfig":  {
+                          "registry":  "https://registry.npmmirror.com/",
+                          "access":  "public"
+                      },
+    "scripts":  {
+                    "test":  "node -e \"console.log(\u0027no tests for @wya-cli/command\u0027)\""
+                },
+    "dependencies":  {
+                         "@wya-cli/log":  "^0.1.0"
+                     }
 }

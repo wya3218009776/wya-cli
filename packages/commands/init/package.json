@@ -1,35 +1,36 @@
 {
-  "name": "@wya-cli/init",
-  "version": "0.1.0",
-  "description": "Project initialization command",
-  "author": "wya3218009776 <3218009776@qq.com>",
-  "license": "ISC",
-  "main": "lib/init.js",
-  "directories": {
-    "lib": "lib"
-  },
-  "files": [
-    "lib"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
-  "scripts": {
-    "test": "node -e \"console.log('no tests for @wya-cli/init')\""
-  },
-  "dependencies": {
-    "@wya-cli/command": "^0.1.0",
-    "@wya-cli/log": "^0.1.0",
-    "@wya-cli/package": "^0.1.0",
-    "@wya-cli/template-react": "^0.1.0",
-    "@wya-cli/template-vue3": "^0.1.0",
-    "@wya-cli/utils": "^0.1.0",
-    "ejs": "^3.1.10",
-    "fs-extra": "^11.3.2",
-    "glob": "^11.0.3",
-    "inquirer": "^8.2.6",
-    "ora": "^5.4.1",
-    "semver": "^7.7.4",
-    "user-home": "^2.0.0"
-  }
+    "name":  "@wya-cli/init",
+    "version":  "0.1.0",
+    "description":  "Project initialization command",
+    "author":  "wya3218009776 \u003c3218009776@qq.com\u003e",
+    "license":  "ISC",
+    "main":  "lib/init.js",
+    "directories":  {
+                        "lib":  "lib"
+                    },
+    "files":  [
+                  "lib"
+              ],
+    "publishConfig":  {
+                          "registry":  "https://registry.npmmirror.com/",
+                          "access":  "public"
+                      },
+    "scripts":  {
+                    "test":  "node -e \"console.log(\u0027no tests for @wya-cli/init\u0027)\""
+                },
+    "dependencies":  {
+                         "@wya-cli/command":  "^0.1.0",
+                         "@wya-cli/log":  "^0.1.0",
+                         "@wya-cli/package":  "^0.1.0",
+                         "@wya-cli/template-react":  "^0.1.0",
+                         "@wya-cli/template-vue3":  "^0.1.0",
+                         "@wya-cli/utils":  "^0.1.0",
+                         "ejs":  "^3.1.10",
+                         "fs-extra":  "^11.3.2",
+                         "glob":  "^11.0.3",
+                         "inquirer":  "^8.2.6",
+                         "ora":  "^5.4.1",
+                         "semver":  "^7.7.4",
+                         "user-home":  "^2.0.0"
+                     }
 }

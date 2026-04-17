@@ -1,16 +1,17 @@
 {
-  "name": "@wya-cli/template-vue3",
-  "version": "0.1.0",
-  "description": "Vue3 project template",
-  "author": "wya3218009776 <3218009776@qq.com>",
-  "license": "ISC",
-  "files": [
-    "template"
-  ],
-  "publishConfig": {
-    "registry": "https://registry.npmmirror.com/"
-  },
-  "scripts": {
-    "test": "node -e \"console.log('no tests for @wya-cli/template-vue3')\""
-  }
+    "name":  "@wya-cli/template-vue3",
+    "version":  "0.1.0",
+    "description":  "Vue3 project template",
+    "author":  "wya3218009776 \u003c3218009776@qq.com\u003e",
+    "license":  "ISC",
+    "files":  [
+                  "template"
+              ],
+    "publishConfig":  {
+                          "registry":  "https://registry.npmmirror.com/",
+                          "access":  "public"
+                      },
+    "scripts":  {
+                    "test":  "node -e \"console.log(\u0027no tests for @wya-cli/template-vue3\u0027)\""
+                }
 }
