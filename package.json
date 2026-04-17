@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "test:workspaces": "npm test --workspaces",
-    "publish:ci": "lerna publish from-package --yes --registry https://registry.npmjs.org/ --ignore @wya-cli/commands --ignore @wya-cli/models"
+    "publish:ci": "lerna publish from-package --yes --access public --registry https://registry.npmjs.org/ --ignore @wya-cli/commands --ignore @wya-cli/models"
   },
   "dependencies": {},
   "devDependencies": {
