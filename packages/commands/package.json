@@ -1,6 +1,7 @@
 {
   "name": "@wya-cli/commands",
   "version": "0.1.0",
+  "private": true,
   "description": "CLI commands workspace",
   "author": "wya3218009776 <3218009776@qq.com>",
   "homepage": "",
